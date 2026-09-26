@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+}
+
+.container {
+    max-width: 700px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.email-box {
+    display: flex;
+    margin: 25px 0;
+}
+
+.email-box input {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.generate {
+    background: #222;
+    color: white;
+}
+
+#inbox {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+}

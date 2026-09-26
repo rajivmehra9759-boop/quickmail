@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Mail - Temporary Email</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Temporary Mail</h1>
+
+        <p>Get a temporary email address instantly.</p>
+
+        <div class="email-box">
+
+            <input
+                id="email"
+                readonly
+                placeholder="Your temporary email"
+            >
+
+            <button onclick="copyEmail()">
+                Copy
+            </button>
+
+        </div>
+
+        <button
+            class="generate"
+            onclick="generateEmail()"
+        >
+            Generate Temporary Email
+        </button>
+
+        <h2>Inbox</h2>
+
+        <button onclick="refreshInbox()">
+            Refresh Inbox
+        </button>
+
+        <div id="inbox">
+            <p>No messages yet.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
